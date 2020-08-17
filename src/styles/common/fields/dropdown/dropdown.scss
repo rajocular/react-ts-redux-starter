@@ -1,0 +1,26 @@
+.dropdown {
+
+  &__container {
+    height: 40px;
+    width: 200px;
+  }
+
+  &__control {
+    height: 100%;
+  }
+
+  &__indicator {
+    &-separator {
+      display: none;
+    }
+  }
+
+  &__menu {
+
+    &-list {
+      padding: 0 !important;
+    }
+
+  }
+
+}

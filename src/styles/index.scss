@@ -1,0 +1,23 @@
+#root {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+p {
+  margin: 0;
+}
+
+div[role='tooltip'] {
+  z-index: 1000;
+}
+
+// Mixin
+@import './mixins.scss';
+
+// Common styles
+@import './common/fields/dropdown/dropdown.scss';
+
